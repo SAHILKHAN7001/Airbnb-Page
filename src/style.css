@@ -1,0 +1,122 @@
+.header {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    max-width: 100px;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.photogrid {
+  width: 100%;
+  margin-top: 120px;
+  max-width: 400px;
+  align-self: center;
+}
+
+@media (max-width:300px) {
+  .photogrid {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+#title {
+ margin-top: 30px;
+ margin-left: 30px;
+font-weight: 600;
+font-size: 36px;
+line-height: 110%;
+color: #000000;
+}
+
+@media (max-width:400px) { 
+   #title {
+    font-size: 25px;
+   }
+}
+
+#des {
+  width: 100%x;
+height: 70px;
+margin-top: 30px;
+margin-left: 30px;
+  font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 110%;
+}
+
+@media (max-width:400px)  {
+  #des {
+    font-size: 14px;
+  }
+}
+
+.cards {
+  margin-left: 30px;
+  width: auto;
+}
+
+.card1 {
+  width: 176px;
+height: 235px;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+}
+
+.star {
+  height: 15px;
+  width: 15px;
+}
+
+#num {
+  font-size: 14px;
+}
+
+#light {
+  font-size: 14px;
+  opacity: 0.6;
+}
+.description {
+  width: 175px;
+  height: 30px;
+  line-height: 110%
+}
+
+p {
+   font-weight: 300;
+font-size: 12px;
+}
+
+#dark {
+  font-weight: 700;
+}
+
+
+.title {
+  line-height: 110%;
+}
+
+.card--badge {
+  position: relative;
+  text-align: center;
+  color:black;
+}
+
+#topleft {
+  position: absolute;
+  top: 10px;
+  left: 5px;  
+  background-color:white;
+}
